@@ -1,0 +1,26 @@
+{
+  "name": "blockyborders",
+  "displayName": "BlockyBorders",
+  "description": "A very blocky theme with strong borders.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blocky Borders Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blocky Borders-dark-color-theme.json"
+      },
+      {
+        "label": "Blocky Borders Light",
+        "uiTheme": "vs",
+        "path": "./themes/Blocky Borders-light-color-theme.json"
+      }
+    ]
+  }
+}
